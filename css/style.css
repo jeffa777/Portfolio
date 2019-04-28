@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+	background-color: rgba(3, 3, 5, 0.80);
+}
+
+.white {
+	background: black !important;
+}
+
+h1,
+h5,
+.card .card-image .card-title {
+	color: greenyellow;
+}
+
+h2 {
+	color: rgb(23, 105, 228);
+}
+
+.card {
+	color: silver;
+	background-color: rgba(3, 3, 3, 0.75);
+}
+
+.card.small .card-image {
+	max-height: 80%;
+	padding: 15px;
+}
+
+#projectbutton {
+	background-color: greenyellow;
+	color: black;
+}
+
+#codebutton {
+	background-color: rgb(85, 88, 95);
+}
+
+.btn:hover {
+	background-color: steelblue;
+}
+
+#contactinfoheader {
+	color: cyan;
+}
+
+nav ul a,
+nav .brand-logo {
+	color: rgb(23, 105, 228);
+}
+
+p {
+	line-height: 2rem;
+}
+
+.parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+}
+.parallax-container .section {
+	width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+.page-footer .footer-copyright {
+	color: rgb(172, 211, 243);
+	background-color: rgb(39, 39, 39);
+}

@@ -6,16 +6,25 @@
  * Made By MaterializeCSS.com
  */
 body {
-	background-color: rgba(3, 3, 5, 0.80);
+	background-color: rgba(0, 0, 0);
+	font-family: 'Noto Serif', serif;
+}
+
+.section {
+	padding-top: 35px;
 }
 
 .white {
 	background: black !important;
 }
 
-h1,
 h5,
-.card .card-image .card-title {
+.card .card-content .card-title {
+	color: greenyellow !important;
+	margin-bottom: 15px;
+}
+
+#portfolioheader {
 	color: greenyellow;
 }
 
@@ -24,14 +33,23 @@ h2 {
 }
 
 .card {
-	color: silver;
-	background-color: rgba(3, 3, 3, 0.75);
+	color: greenyellow;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
-.card.small .card-image {
-	max-height: 80%;
-	padding: 15px;
+.card-reveal {
+	background-color: rgb(65, 65, 65) !important;
+	color: greenyellow;
 }
+
+p {
+	color: silver;
+}
+
+/* .card.small .card-image {
+	max-height: 80%;
+	padding: 20px;
+} */
 
 #projectbutton {
 	background-color: greenyellow;
@@ -48,6 +66,10 @@ h2 {
 
 #contactinfoheader {
 	color: cyan;
+}
+
+#connectlinks {
+	padding-left: 150px;
 }
 
 nav ul a,
